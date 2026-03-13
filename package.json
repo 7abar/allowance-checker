@@ -1,0 +1,20 @@
+{
+  "name": "allowance-checker",
+  "version": "1.0.0",
+  "description": "Scan any EVM wallet for active ERC-20 token approvals. Know what you've approved.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "keywords": ["ethereum", "base", "erc20", "allowance", "approval", "security", "web3"],
+  "author": "7abar",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
